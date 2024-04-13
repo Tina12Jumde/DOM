@@ -3,9 +3,9 @@ let rollBtn = document.getElementById("roll-dice")
 let circles = document.getElementsByClassName("circle")
 
 rollBtn.onclick = () =>{
-    //generate a arndom number
+    //generate a random number
 
-    let randomNumber = Math.floor(Math.random()*6)
+    let randomNumber = Math.floor(Math.random() *6)
 
     console.log(randomNumber)
 
@@ -14,7 +14,7 @@ rollBtn.onclick = () =>{
   //show circle equal to random number and hide others
 
    for(let i = 0; i <=5; i++){
-    if(i <=randomNumber){
+    if(i <= randomNumber){
         circles[i].style.display="block"
     }else{
         circles[i].style.display="none"
@@ -23,6 +23,7 @@ rollBtn.onclick = () =>{
    }
    
 }
+
 
 
 
