@@ -1,0 +1,10 @@
+.practice-element-1{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.practice-example-2{
+    width: 100%;
+    height: 200px;
+}
